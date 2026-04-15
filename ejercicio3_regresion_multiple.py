@@ -86,8 +86,7 @@ def regresion_lineal_multiple(X_train, y_train, X_test):
 
     # TODO: Paso 2 — Calcular los coeficientes β con la fórmula OLS
     # β = (XᵀX)⁻¹ Xᵀy
-    coefs = np.linalg.inv(X_train_b.T @ X_train_b) @ X_train_b.T @ y_train
-
+    coefs, _, _, _ = np.linalg.lstsq(X_train_b, y_train, rcond=None)
     # TODO: Paso 3 — Añadir columna de unos a X_test de la misma forma
     ones_test = np.ones((X_test.shape[0], 1))
     X_test_b = np.hstack([ones_test, X_test])
