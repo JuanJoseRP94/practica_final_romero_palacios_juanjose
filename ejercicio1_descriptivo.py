@@ -65,7 +65,7 @@ for col in num_cols:
 
     print(f"{col}: {len(outliers)} outliers")
 
-    print("\n--- GENERANDO HISTOGRAMAS ---")
+print("\n--- GENERANDO HISTOGRAMAS ---")
 
 num_cols = df.select_dtypes(include=np.number).columns
 
@@ -77,7 +77,7 @@ plt.close()
 
 print("\n--- GENERANDO BOXPLOTS ---")
 
-target = "price"  # cámbialo si tu dataset usa otro nombre
+target = "price" 
 
 cat_cols = ["neighbourhood_group", "neighbourhood", "room_type"]
 

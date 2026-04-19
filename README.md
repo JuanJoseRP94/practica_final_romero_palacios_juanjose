@@ -4,28 +4,28 @@
 
 Descripción del proyecto
 
-Este proyecto consiste en el análisis exploratorio, modelado estadístico y análisis de series temporales sobre distintos conjuntos de datos. Se divide en cuatro ejercicios principales que abordan desde el análisis descriptivo hasta la implementación de modelos de regresión y el estudio de componentes temporales.
+Este proyecto consiste en el análisis exploratorio, modelado estadístico y análisis de series temporales sobre distintos conjuntos de datos.
 
 El objetivo es aplicar técnicas de estadística y machine learning para extraer información relevante, identificar patrones y evaluar modelos predictivos.
 
 
 Estructura del proyecto:
-practica_final_romero_palacios_juanjose/
-│
-├── data/
-│   └── airbnb.csv
-│
-├── output/
-│   ├── gráficas generadas (.png)
-│   └── resultados de análisis (.txt)
-│
-├── ejercicio1_descriptivo.py
-├── ejercicio2_inferencia.py
-├── ejercicio3_regresion_multiple.py
-├── ejercicio4_series_temporales.py
-│
-├── Respuestas.md
-└── README.md
+practica_final_romero_palacios_juanjose/  
+│  
+├── data/  
+│   └── airbnb.csv  
+│  
+├── output/  
+│   ├── gráficas generadas (.png)  
+│   └── resultados de análisis (.txt)  
+│  
+├── ejercicio1_descriptivo.py  
+├── ejercicio2_inferencia.py  
+├── ejercicio3_regresion_multiple.py  
+├── ejercicio4_series_temporales.py  
+│  
+├── Respuestas.md  
+└── README.md  
 *ligeramente modificado por orden alfabético generado automáticamente*
 
 ## Ejercicio 1 — Análisis descriptivo

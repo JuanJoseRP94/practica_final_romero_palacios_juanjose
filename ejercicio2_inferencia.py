@@ -27,7 +27,7 @@ df = df.dropna()
 # Variable objetivo
 target = "price"
 
-# Variables categóricas → one-hot encoding
+# Variables categóricas
 df = pd.get_dummies(df, drop_first=True)
 
 # Separar X e y

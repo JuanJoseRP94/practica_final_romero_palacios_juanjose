@@ -75,11 +75,6 @@ En este análisis exploratorio no se han imputado valores, ya que el objetivo es
 
 ## Ejercicio 2 — Inferencia con Scikit-Learn
 
----
-Añade aqui tu descripción y analisis:
-
----
-
 **Pregunta 2.1 — Indica los valores de MAE, RMSE y R² de la regresión lineal sobre el test set. ¿El modelo funciona bien? ¿Por qué?**
 
 Los resultados obtenidos para el modelo de regresión lineal son:
